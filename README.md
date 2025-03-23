@@ -1,7 +1,7 @@
 # 🩺 BMI Calculator  
 A **simple & responsive** Body Mass Index (BMI) calculator built with **HTML, CSS, and JavaScript**. It calculates BMI based on user input for weight (kg) and height (m) and categorizes it as **Underweight, Normal, Overweight, or Obese**.  
 
-![BMI Calculator Screenshot](./screenshot.png) <!-- Add an actual image in the repo -->
+![BMI Calculator Screenshot](./src/screenshot.png) <!-- Add an actual image in the repo -->
 
 ---
 
