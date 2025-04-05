@@ -30,6 +30,7 @@ input {
 }
 
 button {
+  font: comic;
   background-color: green;
   color: white;
   padding: 10px;
@@ -70,13 +71,13 @@ body {
 .container {
   background: white;
   padding: 20px;
-  max-width: 400px;
+  width: 400px;
   margin: auto;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 input {
-  width: 100%;
+  width: 380px;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
@@ -97,4 +98,12 @@ button:hover {
 #result {
   margin-top: 20px;
   font-size: 1.2em;
+}
+
+.reset-btn {
+  background-color: rgb(194, 21, 21);
+}
+
+.reset-btn:hover {
+  background-color: rgb(140, 1, 1);
 }
