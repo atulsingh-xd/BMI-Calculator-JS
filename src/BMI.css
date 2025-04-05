@@ -1,130 +1,154 @@
+/* General body styling */
 body {
+  /* Set the font for the body */
   font-family: Arial, sans-serif;
+
+  /* Set the initial background color */
   background-color: #fd2c2c;
+
+  /* Use flexbox for layout */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+
+  /* Set the height to fill the viewport */
   height: 100vh;
+
+  /* Remove default margin */
   margin: 0;
 }
 
+/* Container styling for the BMI calculator */
 .container {
-  background-color: rgb(78, 174, 234);
+  background-color: rgb(78, 174, 234); /* Light blue background */
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   text-align: center;
-  width: 300px;
+  width: 300px; /* Fixed width */
 }
 
+/* Heading styling */
 h2 {
   margin-bottom: 10px;
 }
 
+/* Input field styling */
 input {
-  width: 90%;
+  width: 90%; /* Input width relative to container */
   padding: 8px;
   margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
 }
 
+/* Button styling */
 button {
-  font: comic;
-  background-color: green;
-  color: white;
+  font: comic; /* Incorrect font property, should be fixed */
+  background-color: green; /* Green background */
+  color: white; /* White text */
   padding: 10px;
-  width: 100%;
+  width: 100%; /* Full width */
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
   margin-top: 10px;
 }
 
+/* Result text styling */
 #result {
   font-weight: bold;
   margin-top: 10px;
 }
 
-/* Different Colors Based on BMI Category */
+/* BMI category-specific colors */
 .underweight {
-  color: blue;
+  color: blue; /* Blue for underweight */
 }
 .normal {
-  color: green;
+  color: green; /* Green for normal weight */
 }
 .overweight {
-  color: orange;
+  color: orange; /* Orange for overweight */
 }
 .obese {
-  color: red;
+  color: red; /* Red for obesity */
 }
 .error {
-  color: red;
+  color: red; /* Red for error messages */
 }
 
+/* Overriding body styling */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
-  background-color: #26a5fa43;
+  background-color: #26a5fa43; /* Light transparent blue background */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 100vh; /* Full viewport height */
 }
 
+/* Updated container styling */
 .container {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255); /* White background */
   padding: 20px;
-  width: 400px;
+  width: 400px; /* Increased width */
   margin: auto;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Updated input field styling */
 input {
-  width: 380px;
+  width: 380px; /* Increased width */
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
 }
 
+/* Updated button styling */
 button {
-  background-color: #28a745;
-  color: white;
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
   padding: 10px;
   border: none;
-  width: 100%;
-  border-radius: 5px;
-  cursor: pointer;
+  width: 100%; /* Full width */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* Button hover effect */
 button:hover {
-  background-color: #218838;
+  background-color: #218838; /* Darker green on hover */
 }
 
+/* Result text styling */
 #result {
   margin-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.2em; /* Larger font size */
 }
 
+/* Reset button styling */
 .reset-btn {
-  background-color: rgb(194, 21, 21);
+  background-color: rgb(194, 21, 21); /* Red background */
 }
 
+/* Reset button hover effect */
 .reset-btn:hover {
-  background-color: rgb(140, 1, 1);
+  background-color: rgb(140, 1, 1); /* Darker red on hover */
 }
 
+/* Footer styling */
 footer {
   text-align: center;
   padding: 10px 0;
-  position: relative;
+  position: relative; /* Position the footer relative to its normal position */
   bottom: 0;
   width: 100%;
-  font-style: bold;
-  font-family: "Times New Roman", Times, serif;
+  font-style: bold; /* Incorrect property, should be font-weight */
+  font-family: "Times New Roman", Times, serif; /* Serif font */
 }

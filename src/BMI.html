@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Calculator</title>
-    <link rel="stylesheet" href="BMI.css" />
     <!-- Linking External CSS -->
+    <link rel="stylesheet" href="BMI.css" />
   </head>
   <body>
     <div class="container">
       <div class="calculator">
         <h2>BMI Calculator</h2>
-
+        <!-- Input field for weight -->
         <label for="weight">Weight (kg):</label>
         <input type="number" id="weight" placeholder="Enter weight in kg" />
 
+        <!-- Input field for height -->
         <label for="height">Height (m):</label>
         <input
           type="number"
@@ -23,19 +24,22 @@
           placeholder="Enter height in meters"
         />
 
+        <!-- Placeholder for displaying the result -->
         <p id="result"></p>
-        <!-- This will be replaced by the result -->
 
+        <!-- Button to calculate BMI -->
         <button id="calculate-btn">Calculate BMI</button>
+        <!-- Button to reset the form -->
         <button id="reset-btn" class="reset-btn">↺ Reset</button>
       </div>
     </div>
     <footer>
+      <!-- Footer with creator's information -->
       <p>
         Created by <a href="https://www.linkedin.com/in/atulsanjayxd">Atul</a>
       </p>
     </footer>
-    <script src="BMI.js"></script>
     <!-- Linking External JavaScript -->
+    <script src="BMI.js"></script>
   </body>
 </html>
